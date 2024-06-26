@@ -71,10 +71,8 @@ const HeroSection = () => {
           Search Posts
         </Link>
       </div>
-      <div className="flex flex-row items-center text-center justify-center fill-white">
-      <HiArrowDown size={35} className="animate-bounce fill-white" />
-        
-        
+      <div className="pt-20 flex flex-row items-center text-center justify-center fill-white">
+      <HiArrowDown size={35} className="animate-bounce fill-black dark:fill-white" />
       </div>
     </section>
   )
