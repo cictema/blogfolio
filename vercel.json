@@ -1,0 +1,13 @@
+{
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "",
+  "devCommand": "",
+  "outputDirectory": "out",
+  "rewrites": [
+    {
+      "source": "/:path(posts.*)",
+      "destination": "/:path.html"
+    }
+  ]
+}
